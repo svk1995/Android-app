@@ -1,0 +1,12 @@
+The Android Chat application was tested using AWS Device Farm. The app was originally tested on Samsung Galaxy J7 (Android 6.0.1).
+The APK file was generated using Android studio.
+Built in Fuzz option was selected for testing in which the app is subjected to a large amount of random data to find errors.
+Five device pools were used with five different devices.
+The tests were run on Amazon Kindle Fire HDX 7 (2013), LG G Pad 7.0" (AT&T), Samsung Galaxy S5 (T mobile), Samsung Galaxy S6 (Verizon),
+Samsung Galaxy TAb 4 10.1 (Wifi).
+13 tests were passed, 1 failed and 1 was skipped.
+Tests for Setup suite, Built-in explorer suite and Teardown suite were run on each device.
+Amazon Kindle Fire HDX 7 (2013), Samsung Galaxy S5 (T mobile), Samsung Galaxy S6 (Verizon) and Samsung Galaxy Tab 4 10.1 (Wifi)
+passed all the tests whereas the LG G Pad errored for the Setup suite, skipped the Built-in explorer suite and passed the Teardown suite.
+Maximum run time of 25 minutes was selected.
+The time for each device can be observed below.
